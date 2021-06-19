@@ -13,7 +13,7 @@
 
 <h2 align="left">About Us:</h2>
 <img align="right" alt="Coding" width="400" src="logo 2.png">
-<h3 align="center">We are a team of developers who aim to use our knowledge to the fullest in making the coming future more comfortable, hand and safe. If you have any doubts, suggestion ,complaints, enquiry or a feedback about us, feel free to contact us. We would be happy to assist you.</h3>
+<h3 align="center">We are a team of developers who aim to use our knowledge to the fullest in making the coming future more comfortable, hand and safe. Our motive is to not just build projects but we make an attempt towards safer and better future. If you have any doubts, suggestion ,complaints, enquiry or a feedback about us, feel free to contact us. We would be happy to assist you.</h3>
 <h2 align="left">Developers:</h2>
 <ul>
          <li>Aadya Shrivastava</li>
@@ -28,9 +28,10 @@
          <li>devansuyadav@gmail.com</li>
          <li>priyapathak4201@gmail.com</li>
  </ul>
+ 
+ <h2 align="left">Location: India </h2>
 
 ⚡ Fun fact **We think we are developers XD**
-
 
 <h3 align="left">Technologies used in Satark:</h3>
 <p align="left"> <a href="https://azure.microsoft.com/en-in/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
