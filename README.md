@@ -16,14 +16,14 @@
 <h3 align="center">We are a team of developers who aim to use our knowledge to the fullest in making the coming future more comfortable, hand and safe. Our motive is to not just build projects but we make an attempt towards safer and better future. If you have any doubts, suggestion ,complaints, enquiry or a feedback about us, feel free to contact us. We would be happy to assist you.</h3>
 <h2 align="left">Developers:</h2>
 <ul>
-         <li>Aadya Shrivastava</li>
+         <li>Aadyaa Srivastava</li>
          <li>Abhishek Rawe</li>
          <li>Devansu Yadav</li>
          <li>Priya Pathak</li>
  </ul>
 
 📫 How to reach us <ul>
-         <li>shrivastavaaadya@gmail.com</li>
+         <li>srivastavaaadyaa@gmail.com</li>
          <li>rajputabhisheksingh53@gmail.com</li>
          <li>devansuyadav@gmail.com</li>
          <li>priyapathak4201@gmail.com</li>
