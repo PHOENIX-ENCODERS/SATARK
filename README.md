@@ -1,4 +1,4 @@
-<h1 align="center">Hey there! 👋, Welcome to Satark</h1>
+<h1 align="center">Hello! 👋, Welcome to Project Satark</h1>
 
 <img align="right" alt="Coding" width="250" src="Satark logo.png">
 
