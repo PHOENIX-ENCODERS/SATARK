@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title> Identity Verification</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+	<h1>Verify Identity</h1>
+
+<h2 class="text-left">Upload Image</h2>
+
+<div class="profile-images-card">
+	<div class="profile-images">
+		<img src="images/profile.png" id="upload-img">
+	</div>
+	<div class="custom-file">
+		<label for="fileupload">Upload Profile</label>
+		<input type="file" id="fileupload">
+	</div>
+</div>
+
+
+
+
+
+<script src="js/jquery-latest.min.js"></script>
+<script>
+	$(function(){
+		$("#fileupload").change(function(event) {
+			var x = URL.createObjectURL(event.target.files[0]);
+			$("#upload-img").attr("src",x);
+			console.log(event);
+		});
+	})
+</script>
+
+<!--Form section-->
+
+<h1>Enter Details</h1>
+<section>
+	<div class="name">
+		<p>*fields are required to be filled</p>
+ <h3>Your Name *</h3>
+ <p><input type=" " name="name" required placeholder="anaya"></p>
+<h3>Your Surname*</h3>
+<p><input type="text" name="surname" required placeholder="mathur"></p>
+	</div>
+	<div class="email">
+		<h3>Your Email*</h3>
+<p><input type="email" name="email" required placeholder="xyz@gmail.com"></p>
+
+<select name="Select Gender">
+	<option value=”Select Gender”>Select Gender</option>
+	<option value=”Female”>Female</option>
+	<option value=”Male”>Male</option>
+	<option value=”Others”>Others</option>
+
+	</select>
+	</div>
+	<div class="location">
+		<h3>City*</h3>
+		<p><input type="text " name="City" required placeholder="New Delhi"></p>
+		<h3>State*</h3>
+		<p><input type="text" name="State" required placeholder="Madhya Pradesh"></p>
+		<h3>Country*</h3>
+		<p><input type="text" name="Country" required placeholder="INDIA"></p>
+	</div>
+
+	<div class="age">
+		<h3>Age  <h5>(optional)</h5></h3>
+		<p><input type="number" name="AGE" required placeholder="23"></p>
+	</div>
+
+	<button type="submit">Search</button>
+</section>
+</body>
+</html>
