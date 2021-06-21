@@ -13,7 +13,7 @@
 
 <h2 align="left">About Us:</h2>
 <img align="right" alt="Coding" width="400" src="logo 2.png">
-<h3 align="center">We are a team of developers who aim to use our knowledge to the fullest in making the coming future more comfortable, hand and safe. Our motive is to not just build projects but we make an attempt towards safer and better future. If you have any doubts, suggestion ,complaints, enquiry or a feedback about us, feel free to contact us. We would be happy to assist you.</h3>
+<h3 align="center">We are a team of young developers who aim to use our knowledge to the fullest in making the coming future more comfortable, handy and safe. Our motive is to not just build projects for the sake of project submissions instead we aim to create a project lending hand in building a better and safer future.If you have any doubts, suggestion ,complaints, enquiry or a feedback about us, feel free to contact us. We would be happy to assist you.</h3>
 <h2 align="left">Developers:</h2>
 <ul>
          <li>Aadyaa Srivastava</li>
