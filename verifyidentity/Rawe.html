@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="Rawe.css" rel="stylesheet" />
-    
   </head>
   <body>
     <div class="regform"><h1>Registration Form</h1></div>
@@ -18,10 +17,7 @@
           <label class="firstlabel">First name</label>
           <input class="lastname" type="text" name="last_name" />
           <label class="lastlabel">last name</label>
-        </div>
-
-        
-
+        </div> 
         <h2 class="name">Company</h2>
         <input class="Company" type="text" name="componey" />
         <h2 class="name">City</h2>
@@ -71,21 +67,33 @@
           Others
         </label>
         <label class="radio">
-            <input class="radio-three" type="radio" name=" " />
-            <span class="checkmark"></span>
-           Prefer not to say
-          </label>
-          <div class="center" style="padding: 40px;">
-            <form >
-                <label for="fileUpload" style="padding-left: 280px;">Upload your Identity</label>
-                <input type="file" style="padding: 45px;" id="File Upload">
-              </form>
-              </form>
+          <input class="radio-three" type="radio" name=" " />
+          <span class="checkmark"></span>
+          Prefer not to say
+        </label>
+
+
+
+        
+        <div class="form">
+          <h2>Choose Image 📷 </h2>
+          <div class="grid">
+            <div class="form-element">
+              <input type="file" id="file-1" accept="image/*">
+              <label for="file-1" id="file-1-preview">
+                <img src="https://bit.ly/3ubuq5o" alt="">
+                <div>
+                  <span>+</span>
+                </div>
+              </label>
             </div>
+
+
+
+
         <button type="submit">Register</button>
       </form>
     </div>
     <script src="Rawe.js"></script>
   </body>
-  
 </html>
