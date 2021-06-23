@@ -8,39 +8,39 @@
     <link href="Rawe.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="regform"><h1>Registration Form</h1></div>
+    <div class="regform"><h1> Verify Identity</h1></div>
     <div class="main">
       <form>
         <div id="name">
-          <h2 class="name">Name</h2>
-          <input class="firstname" typ="text" name="first_name" /><br />
+                  <h3 class="name">Name*</h3>
+          <input class="firstname" typ="text" name="first_name"   required/><br />
           <label class="firstlabel">First name</label>
           <input class="lastname" type="text" name="last_name" />
           <label class="lastlabel">last name</label>
         </div> 
-        <h2 class="name">Company</h2>
-        <input class="Company" type="text" name="componey" />
-        <h2 class="name">City</h2>
-        <input class="Company" type="text" name="componey" />
-        <h2 class="name">State</h2>
-        <input class="Company" type="text" name="componey" />
-        <h2 class="name">Country</h2>
-        <input class="Company" type="text" name="componey" />
+       <!-- <h3 class="name">Company</h3>
+        <input class="Company" type="text" name="componey" />-->
+        <h3 class="name">City*</h3>
+        <input class="Company" type="text" name="componey" required />
+        <h3 class="name">State*</h3>
+        <input class="Company" type="text" name="componey" required/>
+        <h3 class="name">Country*</h3>
+        <input class="Company" type="text" name="componey" required />
 
-        <h2 class="name">Email</h2>
+        <h3 class="name">Email</h3>
         <input class="email" type="text" name="email" />
-        <h2 class="name">Phone</h2>
+        <h3 class="name">Phone</h3>
         <input class="code" type="text" name="area_code" />
         <label class="area-code">Area Code</label>
         <input class="number" type="text" name="phone" />
         <label class="phone-number"> Phone Number </label>
 
-        <h2 class="name">Aadhar Number</h2>
+        <h3 class="name">Aadhar Number(if indian citizen)</h3>
         <input class="Aadhar" type="text" name="area_code" />
-        <h2 class="name">Passport Number</h2>
-        <input class="passposrt" type="text" name="area_code" />
+        <h3 class="name">Passport Number*</h3>
+        <input class="passposrt" type="text" name="area_code"  required />
 
-        <h2 class="name">Subject</h2>
+       <!-- <h3 class="name">Subject</h3>
         <select class="option" name="subject">
           <option disabled="disabled" selected="selected">
             --Choose Options
@@ -48,9 +48,9 @@
           <option>Subject 1</option>
           <option>Subject 2</option>
           <option>Subject 3</option>
-        </select>
+        </select>-->
 
-        <h2 id="coustomer">Gender</h2>
+        <h3 id="coustomer">Gender</h3>
         <label class="radio">
           <input class="radio-one" type="radio" name="" />
           <span class="checkmark"></span>
@@ -76,7 +76,7 @@
 
         
         <div class="form">
-          <h2>Choose Image 📷 </h2>
+          <h3>Choose Image 📷 </h3>
           <div class="grid">
             <div class="form-element">
               <input type="file" id="file-1" accept="image/*">
