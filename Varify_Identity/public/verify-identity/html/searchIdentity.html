@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>SATARK| Prevention is better than punishment</title>
+	<link href="../css/searchidentity.css" rel="stylesheet" />
+</head>
+
+<body>
+	
+	<button class="button5"> Home ◀</button>
+	<div class="regform">
+		<h1>Search Identity </h1>
+	</div>
+	
+	<script src="../js/searchidentity.js"></script>
+	<script src="../js/FormValidation.js"></script>
+	
+	<div class="main">
+		<form name="searchIdentity" method="POST" onsubmit="return validateForm()">
+			<div id="name">
+				<h2 class="name">Name*</h2>
+				<input class="firstname" id="firstName" typ="text" name="first_name" required /><br />
+				<label class="firstlabel">First name</label>
+				<input class="lastname" id="lastName" type="text" name="last_name" required />
+				<label class="lastlabel">last name</label>
+			</div>
+			
+			<h3 class="name">City</h3>
+			<input class="Company" id="city" type="text" name="city" />
+			
+			<h3 class="name">Nationality*</h3>
+			<input class="Company" id="nationality" type="text" name="country" required />
+			
+			<!--<h3 class="name">Email</h3>
+				<input class="email" type="text" name="email" />
+				<h3 class="name">Phone</h3>
+				<input class="code" type="text" name="area_code" />
+				<label class="area-code">Area Code</label>
+				<input class="number" type="text" name="phone" />
+				<label class="phone-number"> Phone Number </label>-->
+				
+				<!-- <h3 class="name">Aadhar Number(if indian citizen)</h3>
+					<input class="Aadhar" type="text" name="area_code" />-->
+					<h2 class="name">Passport Number</h2>
+					<input class="passport" id="passportNo" type="text" name="passportNo" />
+					
+					<!-- <h3 class="name">Subject</h3>
+						<select class="option" name="subject">
+							<option disabled="disabled" selected="selected">
+								--Choose Options
+							</option>
+							<option>Subject 1</option>
+							<option>Subject 2</option>
+							<option>Subject 3</option>
+						</select>-->
+						
+						<h2 id="coustomer">Gender &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;
+							<label class="radio">
+								<input class="radio-one" type="radio" name="" />
+								<span class="checkmark"></span>
+								Male
+							</label>
+							<label class="radio">
+								<input class="radio-two" type="radio" name=" " />
+								<span class="checkmark"></span>
+								Female
+							</label>
+							<label class="radio">
+								<input class="radio-three" type="radio" name=" " />
+								<span class="checkmark"></span>
+								Others
+							</label>
+						</h2>
+						<!--  <label class="radio">
+							<input class="radio-three" type="radio" name=" " />
+							<span class="checkmark"></span>
+							Prefer not to say
+						</label>-->
+						
+						
+						
+						
+						<div class="form">
+							<h2>Upload Image 📷 </h2>
+							<div class="grid">
+					<div class="form-element">
+						<input type="file" id="file-1" accept="image/*">
+						<label for="file-1" id="file-1-preview">
+							<img src="https://bit.ly/3ubuq5o" id="img-upload" alt="">
+							<div>
+								<span>+</span>
+							</div>
+						</label>
+					</div>
+					
+					<button type="submit">Search</button>
+				</form>
+			</div>
+			<!-- <script src="../js/index.js"></script> -->
+			<!-- <script src="searchidentity.js"></script> -->
+			<!-- <script src="./FormValidation.js"></script> -->
+			<footer>
+				
+				<div class="footer-area-bottom">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="copyright text-center">
+									<p>
+										&copy; Copyright <strong>Phoneix Encoders</strong>. All Rights Reserved
+									</p>
+								</div>
+								<div class="credits">
+									
+									Designed by <a href="https://www.instagram.com/missc.oder/">Missc.oder</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</body>
+		
+</html>
